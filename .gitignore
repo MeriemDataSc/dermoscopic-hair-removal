@@ -1,0 +1,40 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dermoscopy source data (do not commit private/large image datasets)
+/A skin lesion hair mask dataset with fine-grained annotations/
+/dataset/
+/data/
+/input_folder/
+
+# Generated augmented data and algorithm outputs
+/dataset_augmente/
+/augmented_dataset/
+/output_folder/
+/predicted_masks_dullrazor/
+/predicted_masks_gabor/
+/predicted_masks_mygabor/
+/resultats_*/
+
+# Model checkpoints and training artifacts
+*.pt
+*.pth
+*.onnx
